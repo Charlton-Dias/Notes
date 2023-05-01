@@ -6,7 +6,7 @@ import { Button, ButtonGroup, Card, Container, FloatingLabel, Form } from "react
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 // import.meta.env.BASE_URL
 
-const BASE_URL = "http://localhost:9000/notes/";
+const BASE_URL = "https://notes-api-aj52.onrender.com/notes/";
 
 function App() {
   const [notes, setNotes] = useState([]);
